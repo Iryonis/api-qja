@@ -1,0 +1,28 @@
+{
+  "name": "api-qja",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "homepage": "https://github.com/Iryonis/api-qja#readme",
+  "bugs": {
+    "url": "https://github.com/Iryonis/api-qja/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iryonis/api-qja.git"
+  },
+  "license": "ISC",
+  "author": "Iryon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
